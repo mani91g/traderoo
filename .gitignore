@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded and generated data (rebuilt automatically on the next scan)
+data/cache/
+data/lists/
+data/marketcap.csv
+data/marketcap.json
+reports/
+
+# Zerodha credentials and the day's session token: never commit these
+data/kite.json
+data/kite_session.json
+
+# Local tooling
+.claude/
+.DS_Store
